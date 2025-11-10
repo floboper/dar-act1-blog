@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+	font-family: sans-serif;
+	margin: 0;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+p {
+	text-align:justify;
+}
+
+.centrado {
+	text-align: center;
+}
+
+/* Encabezado */
+header {
+	background-color: #0077b6;
+	color: white;
+	padding: 1em;
+	text-align: center;
+}
+
+/* Navegación */
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 1em;
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+	max-width: 800px;
+	margin: 2em auto;
+	padding: 1em;
+	background-color: white;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	border-radius: 8px;
+}
+
+/* Presentación */
+section h2 {
+	color: #0077b6;
+}
+
+section {
+	margin-bottom: 3em;
+}
+
+.presentacion {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	padding: 24px 0;
+}
+
+.presentacion-foto {
+	width: 180px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.presentacion-texto h2 {
+	margin-bottom: 8px;
+}
+
+/* Artículos */
+article {
+	margin-bottom: 2em;
+}
+
+article h2 {
+	color: #0077b6;
+}
+
+.entrada-foto {
+	width: 180px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+/* Páginas Entrada */
+.entrada-completa{
+	padding: 24px 0;
+}
+
+.entrada-completa-foto {
+	width: 100%;
+	max-height: 360px;
+	object-fit: cover;
+	border-radius: 4px;
+	margin: 12px 0;
+}
+
+.likes {
+	margin-top: 12px;
+}
+
+/* Botón */
+button{
+	background-color: #0077b6;
+	color: white;
+	border: none;
+	padding: 0.5em 1em;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #023e8a;
+}
+
+/* Contacto */
+.contacto {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	padding: 24px 0;
+}
+
+.contacto-foto {
+	width: 220px;
+	height: 140px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+/* Pie de página */
+footer {
+	background-color: #0077b6;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	margin-top: 2em;
+}
